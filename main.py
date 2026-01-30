@@ -9,7 +9,7 @@ app=FastAPI(
     description="Prediction water potability"
 )
 #load pre trained model
-with open (r"C:\Users\lenovo\Documents\MSIS\Projects\ml-pipeline\model.pkl","rb") as f:
+with open ("model.pkl","rb") as f:
     model= pickle.load(f)
     
 @app.get("/")
@@ -38,3 +38,4 @@ def model_predict(water:Water):
         return "Water is not consumable"
     
     
+
