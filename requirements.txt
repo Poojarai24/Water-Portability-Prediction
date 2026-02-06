@@ -1,7 +1,3 @@
-setuptools>=68.0.0
-wheel
-pip
-
 annotated-types==0.6.0
 anyio==4.3.0
 certifi==2024.2.2
@@ -47,6 +43,7 @@ urllib3==2.2.1
 uvicorn==0.29.0
 watchfiles==0.21.0
 websockets==12.0
+
 
 
 
